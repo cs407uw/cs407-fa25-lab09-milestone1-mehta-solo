@@ -6,9 +6,7 @@ plugins {
 
 android {
     namespace = "com.cs407.lab09"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.cs407.lab09"
